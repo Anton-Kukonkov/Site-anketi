@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+}
+body {
+    background-color: #222222;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 75;
+}
+.header {
+    height: 70px;
+    background: rgb(32, 32, 32);
+    border: 1px solid #6b6b6b;
+    color: #bbbbbb; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.h1 {
+    display: flex;
+    align-items: center; 
+}
+.s1 {
+    width: 35px;
+    height: 50px;
+}
+.s2 {
+    width: 35px;
+    height: 50px;
+}
+.str {
+    min-width: 20px;
+    font-family: inherit;
+    appearance: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 0px 0px;
+    background: #f5f4f400;
+    cursor: pointer;
+  }
+.main {
+    color: var(--text-secondary);
+    display: block;
+    padding: .2rem 1rem;
+    text-decoration: none;
+}
+
+.back {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align:top;
+    border-collapse: separate;
+    border-spacing: 10px;
+    background: #323232;
+    color: #ebedf0;
+    border: 17px solid #323232;
+    border-radius: 20px;
+    }
+
+td {
+    background: #424242;
+    padding: 0px;
+    text-align: center;
+    }
+
+.ava {
+    width: 35%;
+    display: block;
+    margin: auto;
+}
+.a1 {
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(25px);
+}
+
+.ch1 {
+    background: url("ph.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 900px;
+    height: auto;
+  }
+
+.ch3 {
+    text-align: start;
+    vertical-align: top;
+    padding: 10px;
+    padding-left: 20px;
+    
+    font-size: small;
+    width: 900px;
+    height: 250px;
+  }
+.text {
+    font-size:14px;
+}
+
+

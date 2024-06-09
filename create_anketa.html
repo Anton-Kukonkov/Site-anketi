@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <title>Форма создания</title>
+</head>
+<body>
+    
+    <div class="container">
+        <table border="1">
+            <tr>
+                <td class="ch1">
+                    <button class="button">
+                        <img class="zagl" src="zaglushka.png" alt="zalgushka" title="Добавить фото">
+                    </button>
+                </td>
+                <td class="ch2">
+                    <div class="ch2-start">
+                        <label for="name">Ваше имя: </label>
+                        <input placeholder="Введите имя" type="Text">
+                        <br>
+                        <label for="sec_name">Ваша Фамилия: </label>
+                        <input placeholder="Введите фамилию" type="Text">
+                        <br>
+                        <label for="city">Город проживания: </label>
+                        <input placeholder="Введите город" type="Text">
+                        <br>
+                        <label for="date">Дата рождения: </label>
+                        <input placeholder="Введите дату" type="Text">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="ch3" colspan="2">
+                    <form>
+                        <label for="info">Краткая информация: </label>
+                        <input class="text" type="text" id="name" placeholder="Расскажите о себе">
+                    </form>
+                </td>
+            </tr>
+    </div>
+    <div class="btns">
+        <form action="main.html">
+                <button class="btn" onclick="alert('Анкета создана')">Создать</button>
+        </form>
+       
+        <form action="main.html">
+            <button class="btn2">На главную</button>
+        </form>
+    
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+}
+body {
+    background-color: #222222;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 75;
+}
+.header {
+  height: 70px;
+  background: rgb(32, 32, 32);
+  border: 1px solid #6b6b6b;
+  display: flex;
+  justify-content: center;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #bbbbbb; 
+}
+.main {
+  color: var(--text-secondary);
+  display: block;
+  padding: .2rem 1rem;
+  text-decoration: none;
+}
+.links {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #8f1717;
+    min-width: 100%; 
+    min-height: 100%; 
+    position: relative;
+  }
+  
+.button {
+    min-width: 100px;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    border-radius: 0px;
+    background: #bb1010;
+    color: #ffffff;
+    padding: 16px 40px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background: #5c1a1a;
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px #000000;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    height: 180px;
+  }
+  .fade-in {
+    color: #999999;
+    width: 1300px;
+    height: 150px;
+    text-align: center;
+    font-size: 2rem;
+    opacity: 0; /* начальное значение непрозрачности */
+    animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
+    animation-fill-mode: forwards; /* будет видимым после завершения анимации */
+    animation-duration: 1s; /* длительность анимации в 1 секунду */
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.page1 {
+  color: var(--text-secondary);
+  display: block;
+  padding: .2rem 1rem;
+  text-decoration: none;
+}
+.page2 {
+  color: var(--text-secondary);
+  display: block;
+  padding: .2rem 1rem;
+  text-decoration: none;
+}
+.page3 {
+  color: var(--text-secondary);
+  display: block;
+  padding: .2rem 1rem;
+  text-decoration: none;
+}
